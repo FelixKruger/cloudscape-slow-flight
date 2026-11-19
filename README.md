@@ -1,25 +1,36 @@
 # Cloudscape: Slow Flight
 
-I saw Fishypants' [Cloudscape](https://github.com/Fishypants/cloudscape) and wanted it as my desktop. I just wanted to look over and see myself drifting through the clouds, without having to fly the camera.
+A slow, live flight through the clouds, right behind your Windows desktop icons.
 
-So I added a slow four-minute camera loop and hid the controls by default. Cloudscape still renders the clouds, terrain and light as you fly. The whole thing runs locally from one HTML file, and there's no video to download.
+**[Download the wallpaper ZIP](./cloudscape-slow-flight.zip?raw=true)** · [Get Lively from GitHub](https://github.com/lively-community/lively/releases/latest) · [Try the original Cloudscape](https://fishypants.github.io/cloudscape/)
 
-## Put it on your Windows desktop
+<img src="https://raw.githubusercontent.com/Fishypants/cloudscape/3bd765e12016e016c66c17efe46278ca639da3a3/hero.jpg" alt="A wide view of mountains under billowing volumetric clouds" width="100%">
 
-1. Get the free [Lively Wallpaper installer from its official GitHub releases](https://github.com/lively-community/lively/releases/latest). Use the setup .exe under Assets, not the source-code ZIP or Microsoft Store listing. Run it, approve the Windows administrator prompt yourself if you choose to install it, then open Lively.
-2. [Download `cloudscape-slow-flight.zip`](./cloudscape-slow-flight.zip?raw=true). Leave it zipped.
-3. Drag the ZIP into the Lively window. Once the tile appears in the library, click it to apply it to your desktop. Give the scene a moment to generate.
+*Rendered by Fishypants’ original Cloudscape. The images on this page show the original renderer, not the new flight path.*
 
-Want to see it before installing anything? Unzip the download and open `index.html` in Edge or Chrome. Press **H** to show or hide the settings.
+I saw Fishypants’ Cloudscape and thought: why can’t this just be my desktop? I added a slow four-minute camera loop and hid the controls. The clouds, terrain, and light are drawn live. It runs offline, with no video in the ZIP.
 
-## Keep it light
+## Put it on your desktop
 
-It starts at Medium quality and targets up to 30 fps. If it feels heavy, try it on one monitor first and set Lively to [pause it when other apps cover the desktop](https://github.com/lively-community/lively/wiki/Performance). It requires WebGL 2 and the `EXT_color_buffer_float` extension. If you get a blank background, try the browser preview first to see whether the renderer starts there.
+1. Open the [official Lively GitHub release](https://github.com/lively-community/lively/releases/latest). Under **Assets**, download the Windows setup `.exe`, not the source-code ZIP or the Microsoft Store listing. Run it, approve the Windows administrator prompt yourself if asked, then open Lively.
+2. [Download `cloudscape-slow-flight.zip`](./cloudscape-slow-flight.zip?raw=true) and drag it into Lively **without unzipping it**.
+3. Click **Cloudscape: Slow Flight**. Give the scene a moment to generate, then look at your desktop.
 
-The ZIP, JavaScript syntax and camera path were checked. This doesn't establish that it renders on every Windows or GPU setup.
+**Want to try it before installing?** Unzip it and open `index.html` in Edge or Chrome. Press **H** to show or hide the settings.
 
-## Credits
+## More from the original renderer
 
-- **[Michael Cook (Fishypants)](https://github.com/Fishypants/cloudscape)** made Cloudscape, including the procedural world and the renderer. [Try the original](https://fishypants.github.io/cloudscape/). My changes are the camera path, wallpaper defaults and Lively packaging. The [original MIT license](./LICENSE.txt) is included.
-- **[VB Srivastav's Abyssal](https://developers.openai.com/showcase/abyssal-bioluminescent-ecosystem)** is the procedural, bioluminescent underwater demo I also wanted to shout out. No Abyssal code or assets are included here.
-- **[Lively Wallpaper](https://github.com/lively-community/lively)** is the app that puts the scene behind your Windows desktop icons.
+| Sun shafts | Sunrise |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Fishypants/cloudscape/3bd765e12016e016c66c17efe46278ca639da3a3/sun-shafts.jpg" alt="Rays of sunlight breaking through thick clouds" width="100%"> | <img src="https://raw.githubusercontent.com/Fishypants/cloudscape/3bd765e12016e016c66c17efe46278ca639da3a3/sunrise.jpg" alt="Warm sunrise over clouds and a procedural mountain landscape" width="100%"> |
+
+## If it runs slow or shows a blank screen
+
+It starts at Medium quality and targets up to 30 fps. Try one monitor first and [pause the wallpaper when other apps cover the desktop](https://github.com/lively-community/lively/wiki/Performance). For a blank screen, test the browser preview first. The renderer needs WebGL 2 and `EXT_color_buffer_float`.
+
+## Who made what
+
+- **[Michael Cook (Fishypants)](https://github.com/Fishypants/cloudscape)** built the original procedural world and WebGL renderer, and made the images above. My part is the camera path, wallpaper defaults, and Lively packaging. The [original MIT license](./LICENSE.txt) is included.
+- **The renderer’s technical references:** [Sébastien Hillaire’s sky and atmosphere paper](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14050) and Andrew Schneider’s volumetric cloud work at Guerrilla: [Horizon Zero Dawn (2015)](https://www.guerrilla-games.com/read/the-real-time-volumetric-cloudscapes-of-horizon-zero-dawn) and [Nubis (2017)](https://www.guerrilla-games.com/read/nubis-authoring-real-time-volumetric-cloudscapes-with-the-decima-engine).
+- **[VB Srivastav’s Abyssal](https://developers.openai.com/showcase/abyssal-bioluminescent-ecosystem)** is a separate procedural underwater demo worth a look. No Abyssal code or assets are included here.
+- **[Lively Wallpaper](https://github.com/lively-community/lively)** is the open-source app that puts it on the desktop.
