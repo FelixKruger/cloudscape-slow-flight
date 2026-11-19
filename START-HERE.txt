@@ -1,0 +1,12 @@
+CLOUDSCAPE: SLOW FLIGHT
+
+Lively Wallpaper: drag the intact ZIP into its window.
+For a browser preview, extract the ZIP first and open index.html in Edge.
+Keep the settings hidden for a clean wallpaper; H reveals or hides them in the browser preview.
+Flight, clouds, terrain and lighting are generated in real time, not played from a recording.
+Medium quality and up to 30 FPS by default. WebGL 2 + EXT_color_buffer_float required.
+If desired, use Lively's performance settings to pause the wallpaper when windows cover it.
+
+Original Cloudscape: https://github.com/Fishypants/cloudscape
+MIT license; see LICENSE.txt. This package adds a looping camera trajectory,
+a clean default layout, and wallpaper-friendly rendering settings.
